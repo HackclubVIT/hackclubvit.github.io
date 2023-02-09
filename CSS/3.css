@@ -1,3 +1,4 @@
+/* Start of about-section styles */
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 @font-face {
@@ -30,14 +31,18 @@
 #about-section {
     display: flex;
     flex-direction: row;
+    padding: 0 0 0 2vw;
+    margin: 0;
 }
+
 
 #text>h1 {
     font-family: 'Phantom Sans';
     font-style: normal;
     font-weight: bold;
-    font-size: 72px;
-    line-height: 92px;
+    font-size: 3.5vw;
+    line-height: 6vw;
+    margin: 2vh 2vw 2vh 0;
     /* text-align: center; */
 }
 
@@ -45,22 +50,45 @@
     font-family: 'Phantom Sans';
     font-style: normal;
     font-weight: 10;
-    font-size: 40px;
-    line-height: 44px;
-
+    font-size: 2vw;
+    line-height: 3vw;
     color: rgba(0, 0, 0, 0.47);
+    margin: 2vh 0 2vh 0;
 }
 
 #about-img {
-    width: 687.48px;
-    height: 672px;
+    width: 30vw;
+    height: auto;
 }
 
 @media (max-width: 480px){
     #about-section{
         flex-direction: column;
+        padding-left: 0;
     }
     #about-img{
-        width: 100vw;
+        width: 95vw;
+        height: auto;
     }
+    #text{
+        text-align: justify;
+    }
+    #text > h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    #text > p{
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+}
+
+/* End of about-section styles */
+
+/* Start of code-section styles */
+#no-code-alone{
+    text-align: left;
+    
 }

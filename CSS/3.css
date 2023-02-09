@@ -1,4 +1,4 @@
-/* Start of about-section styles */
+Start of about-section styles
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
@@ -96,3 +96,41 @@ body {
 /* End of about-section styles */
 
 /* Start of code-section styles */
+
+
+#heading{
+    /* position:absolute;
+    width:1040px;
+    height: 84px;
+    left: 275px;
+    top: 900px; */
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    text-align: right;
+    /* margin-right: 50px; */
+    font-size: 80px;
+    line-height: 84px;
+    color: white;
+}
+
+
+
+
+#description{
+    /* position: absolute;
+    width: 911px;
+    /* height: 146px; */
+    text-align: right;
+    /* padding-right: 50px; */
+    
+
+    font-family: 'Phantom Sans 0.7';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+
+    color: white;
+}

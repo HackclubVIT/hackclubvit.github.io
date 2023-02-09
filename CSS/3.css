@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+#hey-there{
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+}
+#text > h1{
+    font-family: 'Abel',sans-serif;
+    font-size: 72px;
+    
+
+}
+
+#about-img{
+    width: 687.48px;
+    height: 672px;
+}

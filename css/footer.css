@@ -1,0 +1,131 @@
+
+footer {
+    margin-top: 34rem;
+    background-color: #272121;
+    color: white;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer ul.footer-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer-body-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-socials-wrapper {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-banner img {
+    padding: 1em;
+}
+
+.footer-banner {
+    font-family: roboto;
+    font-weight: 900;
+    display: flex;
+}
+
+.footer-banner #hc {
+    display: inline-block;
+    padding: 0.5em;
+    font-size: 2rem;
+    top: 0;
+}
+
+.footer-socials ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-socials li {
+    display: inline-block;
+    padding: 1.3em;
+}
+
+.footer-links {
+    display: inline-block;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.footer-links {
+    padding: 1em;
+}
+
+.footer-links .comm {
+    padding: 0.1em;
+}
+
+.footer-links .outro {
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding-top: 0.5em;
+}
+
+.footer-links a {
+    color: inherit;
+}
+
+
+@media screen and (max-aspect-ratio: 1/1) {
+    #about {
+        background-size: 0;
+    }
+    .footer-banner img {
+        padding: 0em;
+        padding-left: 0.5em;
+    }
+    .footer-banner #hc {
+        display: inline-block;
+        padding: 0.35em;
+        margin-bottom: 0.4em;
+        font-size: 34px;
+    }
+    .footer-socials li {
+        display: inline-block;
+        padding: 0.5em;
+    }
+    .footer-links {
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+    .footer-socials-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: none;
+    }
+    footer>ul.container {
+        flex-direction: column-reverse;
+    }
+    .footer-banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer>ul.container>.footer-socials-wrapper {
+        width: 90%;
+    }
+}

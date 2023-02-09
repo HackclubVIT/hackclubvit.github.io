@@ -1,9 +1,16 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('../assets/Fonts/Roboto-Regular.ttf') format('tff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 footer {
     /* margin-top: 2rem; */
     background-color: #272121;
     color: white;
-
+    font-family: 'roboto' !important;
 }
 
 footer li {
@@ -35,7 +42,7 @@ footer ul.footer-container {
 }
 
 .footer-banner {
-    font-family: roboto;
+    font-family: 'roboto';
     font-weight: 900;
     display: flex;
 }

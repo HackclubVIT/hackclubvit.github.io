@@ -29,6 +29,10 @@
     font-display: swap;
 }
 
+body {
+    margin: 0 !important;
+}
+
 #about-section {
     display: flex;
     flex-direction: row;
@@ -77,7 +81,7 @@
     #about-section_text > h1{
         font-size: 40px;
         line-height: 45px;
-        padding: 0 2% 0 2% ;
+        padding: 0 3% 0 3% ;
 
     }
     #about-section_text > p{
@@ -85,7 +89,7 @@
         line-height: 20px;
         margin-bottom: 0;
         margin-top: 5px;
-        padding: 0 2% 0 2% ;
+        padding: 0 3% 0 3% ;
     }
 }
 

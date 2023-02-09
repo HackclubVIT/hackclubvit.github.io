@@ -92,11 +92,3 @@
 /* End of about-section styles */
 
 /* Start of code-section styles */
-
-#code-text{
-    text-align: right;
-    background: url(../assets/Binary.png);
-}
-#code-text > h1{
-    font-family: 'Inconsolata';
-}

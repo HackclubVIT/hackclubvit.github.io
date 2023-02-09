@@ -1,17 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-#hey-there{
-    background: #E5E5E5;
+
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('../assets/Fonts/Regular.woff') format('woff'),
+        url('../assets/Fonts/Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('../assets/Fonts/Italic.woff') format('woff'),
+        url('../assets/Fonts/Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('../assets/Fonts/Bold.woff') format('woff'),
+        url('../assets/Fonts/Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+#about-section {
     display: flex;
     flex-direction: row;
 }
-#text > h1{
-    font-family: 'Abel',sans-serif;
-    font-size: 72px;
-    
 
+#text>h1 {
+    font-family: 'Phantom Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 92px;
+    /* text-align: center; */
 }
 
-#about-img{
+#text>p {
+    font-family: 'Phantom Sans';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 40px;
+    line-height: 44px;
+
+    color: rgba(0, 0, 0, 0.47);
+}
+
+#about-img {
     width: 687.48px;
     height: 672px;
+}
+
+@media (max-width: 480px){
+    #about-section{
+        flex-direction: column;
+    }
+    #about-img{
+        width: 100vw;
+    }
 }

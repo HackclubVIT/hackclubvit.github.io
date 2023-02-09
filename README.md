@@ -3,6 +3,7 @@
 ![hackclub](assets/hc.jpeg)
 
 ## Rules
+
 - Use relative units in CSS, **not absolute**.
 - Use .webp format for images
 - Make the webpage **responsive**.

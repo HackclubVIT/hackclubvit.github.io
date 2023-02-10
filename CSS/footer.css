@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 @font-face {
     font-family: 'roboto';
     src: url('../assets/Fonts/Roboto-Regular.ttf') format('tff');
@@ -48,10 +54,14 @@ footer ul.footer-container {
 }
 
 .footer-banner #hc {
-    display: inline-block;
+    /* display: inline-block;
     padding: 0.5em;
+    top: 0; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 2rem;
-    top: 0;
 }
 
 .footer-socials ul {
@@ -70,6 +80,11 @@ footer ul.footer-container {
     font-family: roboto;
     font-weight: 500;
     font-size: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1rem;
 }
 
 .footer-links {
@@ -95,24 +110,29 @@ footer ul.footer-container {
     #about {
         background-size: 0;
     }
+
     .footer-banner img {
         padding: 0em;
         padding-left: 0.5em;
     }
+
     .footer-banner #hc {
         display: inline-block;
         padding: 0.35em;
         margin-bottom: 0.4em;
         font-size: 34px;
     }
+
     .footer-socials li {
         display: inline-block;
         padding: 0.5em;
     }
+
     .footer-links {
         padding: 0.5em;
         margin: 0.5em;
     }
+
     .footer-socials-wrapper {
         display: flex;
         align-items: center;
@@ -120,19 +140,23 @@ footer ul.footer-container {
         flex-direction: column;
         margin-bottom: none;
     }
+
     footer>ul.container {
         flex-direction: column-reverse;
     }
+
     .footer-banner {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     .footer-socials {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     footer>ul.container>.footer-socials-wrapper {
         width: 90%;
     }

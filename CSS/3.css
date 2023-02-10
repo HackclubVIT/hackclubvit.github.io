@@ -28,6 +28,10 @@
     font-display: swap;
 }
 
+*{
+    margin: 0;
+}
+
 #about-section {
     display: flex;
     flex-direction: row;

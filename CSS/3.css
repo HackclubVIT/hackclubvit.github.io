@@ -1,4 +1,4 @@
-/* Start of about-section styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 @font-face {
@@ -32,6 +32,7 @@
     margin: 0;
 }
 
+/* Start of about-section styles */
 #about-section {
     display: flex;
     flex-direction: row;
@@ -127,16 +128,25 @@
         margin-top: 5px;
         padding: 0 2% 0 2% ;
     }
-}
 
-/* End of about-section styles */
+    /* Code-section mobile styles */
+    #code_section-text{
+        text-align: justify;
+        padding: 8vh 3vw 18vh 0;
 
-/* Start of code-section styles */
-
-#code-text{
-    text-align: right;
-    background: url(../assets/Binary.png);
-}
-#code-text > h1{
-    font-family: 'Inconsolata';
+    }
+    #code_section-heading{
+        font-size: 40px;
+        line-height: 45px;
+        padding: 0 3% 0 3% ;
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+    #code_section-description{
+        font-size: 20px;
+        line-height: 20px;
+        margin: 5px 0 0 0;
+        padding: 0 3% 0 3% ;
+        text-align: justify;
+    }
 }

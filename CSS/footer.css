@@ -69,19 +69,19 @@ footer ul.footer-container {
     display: inline-block;
     font-family: roboto;
     font-weight: 500;
-    font-size: 1rem;
-}
+    font-size: 1.4rem;
+    /* padding: 2em; */
 
-.footer-links {
-    padding: 1em;
 }
-
+.footer-link{
+    padding: 1%;
+}
 .footer-links .comm {
     padding: 0.1em;
 }
 
 .footer-links .outro {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
     padding-top: 0.5em;
 }

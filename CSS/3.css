@@ -1,6 +1,5 @@
-/* Start of about-section styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 @font-face {
     font-family: 'Phantom Sans';
@@ -29,15 +28,16 @@
     font-display: swap;
 }
 
-body {
-    margin: 0 !important;
+*{
+    margin: 0;
 }
 
+/* Start of about-section styles */
 #about-section {
     display: flex;
     flex-direction: row;
     padding: 0 0 0 2vw;
-    margin: 0;
+    margin: 4vh 0 0 0;
 }
 
 
@@ -65,8 +65,45 @@ body {
     height: auto;
 }
 
-/* for mobile width styles */
+/* End of about-section styles */
+
+/* Start of code-section styles */
+#bg-image{
+    width: 100vw;
+}
+#code_section-heading{
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 5vh;
+    font-size: 4vw;
+    line-height: 8vw;
+    color: white;
+    margin: 2vh 10vh 2vh 0;
+}
+
+#code_section-text{
+    padding: 10vh 3vw 20vh 0;
+    background: url('../assets/img/bg-image.jpeg');
+}
+
+#code_section-description{
+    text-align: right;
+    font-family: 'Phantom Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 3vw;
+    color: white;
+    margin: 2vh 10vh 2vh 0;
+}
+
+/* End of code-section styles */
+
+/* For mobile width styles */
 @media (max-width: 480px){
+    /* About-section mobile styles */
     #about-section{
         flex-direction: column;
         padding-left: 0;
@@ -89,10 +126,27 @@ body {
         line-height: 20px;
         margin-bottom: 0;
         margin-top: 5px;
+        padding: 0 2% 0 2% ;
+    }
+
+    /* Code-section mobile styles */
+    #code_section-text{
+        text-align: justify;
+        padding: 8vh 3vw 18vh 0;
+
+    }
+    #code_section-heading{
+        font-size: 40px;
+        line-height: 45px;
         padding: 0 3% 0 3% ;
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+    #code_section-description{
+        font-size: 20px;
+        line-height: 20px;
+        margin: 5px 0 0 0;
+        padding: 0 3% 0 3% ;
+        text-align: justify;
     }
 }
-
-/* End of about-section styles */
-
-/* Start of code-section styles */

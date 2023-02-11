@@ -1,7 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('../assets/Fonts/Regular.woff') format('woff'),
+        url('../assets/Fonts/Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('../assets/Fonts/Italic.woff') format('woff'),
+        url('../assets/Fonts/Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('../assets/Fonts/Bold.woff') format('woff'),
+        url('../assets/Fonts/Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 #commence-launch {
     background: var(--dark);
-    background-color: #272121;;
+    background-color: #272121;
+    ;
     color: white;
     text-align: right;
     min-height: 90vh !important;
@@ -12,24 +42,28 @@
     justify-content: center;
 
 }
-#commence-launch .button:hover{
+
+#commence-launch .button:hover {
     background-color: #EF1212;
     color: white;
     transition-duration: 0.2s;
 }
+
 #commence-launch.section-text {
     width: 60%;
 
 }
+
 #commence-launch.section-image {
     max-height: 90%;
     width: auto;
 }
+
 #commence-launch .large.button {
     font-size: 1.5rem;
     margin-top: 3rem;
     width: 20rem;
-    font-family: Roboto; 
+    font-family: Roboto;
     box-shadow: 12px 9px 19px rgba(0, 0, 0, 0.41), -12px -9px 19px rgba(255, 255, 255, 0.19);
     /* padding: 2rem; */
     letter-spacing: 0.2rem;
@@ -44,34 +78,67 @@
     font-weight: bold;
     width: 20%;
 }
-#commence-launch .button:hover{
+
+#commence-launch .button:hover {
     background-color: #EF1212;
     color: white;
     transition-duration: 0.2s;
 }
 
 
-
-
-
 #commence-launch .large1 {
-    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+#commence-launch .large1 p {
+    font-size: 3rem;
     /* font-family: roboto; */
     font-family: 'Abel';
+    font-family: 'Phantom Sans';
     font-style: normal;
     font-weight: bold;
     text-align: right;
-    margin-bottom: 2.2em;
+    /* margin-bottom: 2.2em; */
     margin-right: 1em;
     font-weight: 700;
 }
+
+#commence-launch .large1 .large_button {
+    margin-top: 4rem;
+    width: 245.63px;
+    height: 65px;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background: #FFFFFF;
+    border-radius: 14px;
+    transition: all 0.2s ease-in-out;
+}
+
+#commence-launch .large1 .large_button:hover{
+    cursor: pointer;
+    box-shadow: 12px 9px 19px rgba(0, 0, 0, 0.41), -12px -9px 19px rgba(255, 255, 255, 0.19);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.align-right {
+    padding-left: 4rem;
+}
+
 @media screen and (max-aspect-ratio: 1/1) {
     #commence-launch {
         flex-direction: column !important;
     }
+
     #commence-launch .section-text {
         width: 100%;
     }
+
     #commence-launch .section-image {
         max-height: 100%;
         width: auto;

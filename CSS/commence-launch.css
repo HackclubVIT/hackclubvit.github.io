@@ -55,8 +55,11 @@
 }
 
 #commence-launch.section-image {
-    max-height: 90%;
-    width: auto;
+    /* max-height: 90%; */
+    /* width: auto; */
+    width: 20.681rem;
+    height: 33.491rem;
+
 }
 
 #commence-launch .large.button {
@@ -139,9 +142,15 @@
         width: 100%;
     }
 
-    #commence-launch .section-image {
-        max-height: 100%;
-        width: auto;
+    #commence-launch .section-image img{
+        /* max-height: 100%; */
+        width: 18rem;
+        /* margin-right: 5px; */
+        height: 25rem;
+        /* height: 400px; */
+
+        /* width: auto; */
+        /* height: auto; */
     }
 
 }

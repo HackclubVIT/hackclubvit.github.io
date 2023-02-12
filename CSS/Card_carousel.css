@@ -1,0 +1,285 @@
+*{
+    font-family: 'Abel';
+}
+.events-section {
+    margin: 60px;
+    border-radius: 50px;
+    background-color: #CFD2CF;
+    font-size: 20px;
+    font-weight: bolder;
+    background: linear-gradient(#E20203, #F87A3D);
+    background: linear-gradient(to left top, #E20203, #F87A3D);
+}
+
+.name {
+    position: absolute;
+    width: 243.67px;
+    height: 83.51px;
+    left: 590px;
+    top: 160px;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 1200;
+    font-size: 80px;
+    line-height: 102px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.event-text {
+    display: flex;
+    position: absolute;
+    /* width: 109.95px;
+    height: 143.86px; */
+    left: 603px;
+    top: 300px;
+    padding-right:3px;
+    font-family: 'Phantom Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.055em;
+
+    color: #FFFFFF;
+}
+
+.rectangle {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-self: center;
+    width: 33.5rem;
+    height: 33.5rem;
+    left: 50px;
+    top: 120px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.box-img {
+    position: absolute;
+    width: 32.5rem;
+    height: 32.5rem;
+    left: 4px;
+    top: 4px;
+    border-radius: 45px;
+}
+
+
+.content {
+    height: 800px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: opacity .6s ease;
+    border-radius: 100%;
+    position: relative;
+    left: 100px;
+    top: -20px;
+}
+
+
+/* Laptop ------------------------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+    .event-text {}
+
+    .rectangle {
+        width: 3.5rem;
+        height: 3.5rem;
+        left: 50px;
+        top: 120px;
+    }
+
+    .box-img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+
+
+}
+
+
+/* Mobile ------------------------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+    /* Styles */
+    .content {
+        height: 800px;
+    }
+
+    .events-section {
+        margin: 10px;
+        border-radius: 50px;
+        background-color: #CFD2CF;
+        font-size: 5px;
+        font-weight: bolder;
+        background: linear-gradient(#E20203, #F87A3D);
+        background: linear-gradient(to left top, #E20203, #F87A3D);
+    }
+
+    .rectangle {
+        display: flex;
+        position: absolute;
+        width: 340px;
+        height: 380px;
+        left: 14px;
+        top: 20px;
+        background: #FFFFFF;
+        border-radius: 50px;
+    }
+
+    .box-img {
+        position: absolute;
+        width: 326px;
+        height: 360px;
+        left: 3px;
+        top: 6px;
+        border-radius: 45px;
+
+    }
+
+    .name {
+        position: absolute;
+        width: 243.67px;
+        height: 83.51px;
+        left: 1px;
+        top: 410px;
+
+        font-family: 'Abel';
+        font-style: normal;
+        font-weight: 1200;
+        font-size: 50px;
+        line-height: 102px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .event-text {
+        display: flex;
+        position: absolute;
+        width: 330px;
+        height: 243.86px;
+        left: 25px;
+        top: 505px;
+
+        font-family: 'Phantom Sans 0.7';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        letter-spacing: 0.055em;
+
+        color: #FFFFFF;
+    }
+
+
+
+}
+
+/* Tablet ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+    /* Styles */
+    .content {
+        height: 1000px;
+    }
+
+    .carousel-indicators {
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    .events-section {
+        margin: 10px;
+        border-radius: 50px;
+        background-color: #CFD2CF;
+        font-size: 5px;
+        font-weight: bolder;
+        background: linear-gradient(#E20203, #F87A3D);
+        background: linear-gradient(to left top, #E20203, #F87A3D);
+    }
+
+    .rectangle {
+        display: flex;
+        position: absolute;
+        width: 700px;
+        height: 500px;
+        left: 25px;
+        top: 20px;
+        background: #FFFFFF;
+        border-radius: 50px;
+    }
+
+    .box-img {
+        position: absolute;
+        width: 660px;
+        height: 480px;
+        left: 11px;
+        top: 4.5px;
+        border-radius: 45px;
+
+    }
+
+    .name {
+        position: absolute;
+        width: 243.67px;
+        height: 83.51px;
+        left: 1px;
+        top: 520px;
+
+        font-family: 'Abel';
+        font-style: normal;
+        font-weight: 1200;
+        font-size: 50px;
+        line-height: 102px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .event-text {
+        display: flex;
+        position: absolute;
+        /* width: 740px;
+        height: 243.86px; */
+        left: 35px;
+        top: 620px;
+
+        font-family: 'Phantom Sans 0.7';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        letter-spacing: 0.055em;
+
+        color: #FFFFFF;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        left: 24px;
+        top: -20px;
+    }
+}

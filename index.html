@@ -11,18 +11,24 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css'>
+  <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./CSS/styles.css">
+
+  <!-- Link for CSS Styles -->
+  <!-- <link rel="stylesheet" href="./CSS/styles.css"> -->
+  <!-- <link rel="stylesheet" href="./Events_Card/styles.css"> -->
   <link rel="stylesheet" href="./CSS/3.css">
   <link rel="stylesheet" href="./CSS/footer.css">
   <link rel="stylesheet" href="./CSS/commence-launch.css">
+  <link rel="stylesheet" href="./CSS/Card_carousel.css">
   <link rel="stylesheet" href="./CSS/navbar.css">
-  <link rel="stylesheet" href="./Events_Card/styles.css">
 </head>
 
 <body>
@@ -87,7 +93,16 @@
     </div>
   </section>
 
-
+  <!-- Card Carousel -->
+  <!-- partial:index.partial.html -->
+  <!-- <div class="main-sec">
+    <div class="slide-sec">
+    </div>
+  </div> -->
+  <!-- partial -->
+  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js'></script>
+  <script src="./scripts/script.js"></script> -->
 
 
   <div class="events-section">
@@ -172,7 +187,7 @@
             </p>
           </div>
         </div>
-        <address class="carousel-item">
+        <div class="carousel-item">
           <div class="content">
             <div class="rectangle">
               <div class="box-img">
@@ -187,9 +202,9 @@
               magni praesentium qui cumque iste.
             </p>
           </div>
+        </div>
       </div>
-    </div>
-    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#reviews" data-bs-slide="prev">
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#reviews" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
@@ -197,41 +212,41 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button> -->
-    
+    </div>
   </div>
 
 
-  <!-- Footer -->
-  <footer class='footer-body-section'>
-    <ul class="footer-container">
-      <li class="footer-socials-wrapper">
-        <div class="footer-banner">
-          <img src="assets/img/hc_logo.svg" alt="Logo">
-          <a id="hc"><strong>Hack Club</strong></a>
+    <!-- Footer -->
+    <footer class='footer-body-section'>
+      <ul class="footer-container">
+        <li class="footer-socials-wrapper">
+          <div class="footer-banner">
+            <img src="assets/img/hc_logo.svg" alt="Logo">
+            <a id="hc"><strong>Hack Club</strong></a>
+          </div>
+          <div class="footer-socials">
+            <ul>
+              <li><a href="https://hackclub.com/slack/"><img id="slack" src="assets/img/slack.svg"
+                    alt="slack Logo"></img></a></li>
+              <li><a href="https://github.com/HackclubVIT"><img id="github" src="assets/img/github.svg"
+                    alt="github Logo"></img></a></li>
+              <li><a href="https://www.instagram.com/hackclubvitc/?hl=en"><img id="insta" src="assets/img/insta.svg"
+                    alt="insta Logo"></img></a></li>
+              <li><a href="https://github.com/HackclubVIT"><img id="mail" src="assets/img/email.svg"
+                    alt="email Logo"></img></a></li>
+            </ul>
+          </div>
+        </li>
+        <div class="footer-links">
+          <p class="footer-link" id="phil"><a href='https://hackclub.com/philosophy/'>Philosophy</a></p>
+          <p class="footer-link"> <a href="https://hackclub.com">Community</a></p>
+          <p class="footer-link"><a href="https://hackclub.com/conduct/">HackClub Code of Conduct</a></p>
+          <p class="outro">Made with <img id="heart" src="assets/img/heart.svg" alt="Logo"></img>
+            by Students of Hack Club</p>
         </div>
-        <div class="footer-socials">
-          <ul>
-            <li><a href="https://hackclub.com/slack/"><img id="slack" src="assets/img/slack.svg"
-                  alt="slack Logo"></img></a></li>
-            <li><a href="https://github.com/HackclubVIT"><img id="github" src="assets/img/github.svg"
-                  alt="github Logo"></img></a></li>
-            <li><a href="https://www.instagram.com/hackclubvitc/?hl=en"><img id="insta" src="assets/img/insta.svg"
-                  alt="insta Logo"></img></a></li>
-            <li><a href="https://github.com/HackclubVIT"><img id="mail" src="assets/img/email.svg"
-                  alt="email Logo"></img></a></li>
-          </ul>
-        </div>
-      </li>
-      <div class="footer-links">
-        <p class="footer-link" id="phil"><a href='https://hackclub.com/philosophy/'>Philosophy</a></p>
-        <p class="footer-link"> <a href="https://hackclub.com">Community</a></p>
-        <p class="footer-link"><a href="https://hackclub.com/conduct/">HackClub Code of Conduct</a></p>
-        <p class="outro">Made with <img id="heart" src="assets/img/heart.svg" alt="Logo"></img>
-          by Students of Hack Club</p>
-      </div>
-    </ul>
-  </footer>
+      </ul>
+    </footer>
+    <script src="./scripts/script.js"></script>
 </body>
-<script src="./scripts/script.js"></script>
 
 </html>

@@ -54,7 +54,7 @@
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: black;
+  background-color: white; <!--Changed from black to white - Srijan-->
 }
 
 @media (max-width: 768px) {

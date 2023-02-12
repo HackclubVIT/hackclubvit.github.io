@@ -82,8 +82,6 @@
     width: 15px;
     height: 15px;
     padding: 0;
-    margin-right: 3px;
-    margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
     background-color: #fff;
@@ -94,15 +92,12 @@
     transition: opacity .6s ease;
     border-radius: 100%;
     position: relative;
-    left: 100px;
-    top: -20px;
+    margin-top: 10%;
 }
 
 
 /* Laptop ------------------------- */
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
-
-    .event-text {}
 
     .rectangle {
         width: 3.5rem;
@@ -126,7 +121,7 @@
 
     /* Styles */
     .content {
-        height: 800px;
+        height: 900px;
     }
 
     .events-section {
@@ -157,7 +152,6 @@
         left: 3px;
         top: 6px;
         border-radius: 45px;
-
     }
 
     .name {
@@ -166,14 +160,12 @@
         height: 83.51px;
         left: 1px;
         top: 410px;
-
         font-family: 'Abel';
         font-style: normal;
         font-weight: 1200;
         font-size: 50px;
         line-height: 102px;
         text-align: center;
-
         color: #FFFFFF;
     }
 
@@ -183,20 +175,16 @@
         width: 330px;
         height: 243.86px;
         left: 25px;
-        top: 505px;
-
+        top: 500px;
         font-family: 'Phantom Sans 0.7';
         font-style: normal;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 20px;
         line-height: 33px;
         letter-spacing: 0.055em;
 
         color: #FFFFFF;
     }
-
-
-
 }
 
 /* Tablet ----------- */
@@ -204,7 +192,7 @@
 
     /* Styles */
     .content {
-        height: 1000px;
+        height: 900px;
     }
 
     .carousel-indicators {

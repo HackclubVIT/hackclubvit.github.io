@@ -55,8 +55,11 @@
 }
 
 #commence-launch.section-image {
-    max-height: 90%;
-    width: auto;
+    /* max-height: 90%; */
+    /* width: auto; */
+    width: 20.681rem;
+    height: 33.491rem;
+
 }
 
 #commence-launch .large.button {
@@ -108,14 +111,14 @@
 
 #commence-launch .large1 .large_button {
     margin-top: 4rem;
-    width: 245.63px;
-    height: 65px;
+    width: 15.352rem;
+    height: 4.063rem;
     font-family: 'Abel';
     font-style: normal;
     font-weight: bold;
     font-size: 1.5rem;
     background: #FFFFFF;
-    border-radius: 14px;
+    border-radius: 0.875rem;
     transition: all 0.2s ease-in-out;
 }
 
@@ -139,9 +142,15 @@
         width: 100%;
     }
 
-    #commence-launch .section-image {
-        max-height: 100%;
-        width: auto;
+    #commence-launch .section-image img{
+        /* max-height: 100%; */
+        width: 18rem;
+        /* margin-right: 5px; */
+        height: 25rem;
+        /* height: 400px; */
+
+        /* width: auto; */
+        /* height: auto; */
     }
 
 }

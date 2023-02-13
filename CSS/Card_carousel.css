@@ -20,9 +20,10 @@
     font-family: 'Abel';
     font-style: normal;
     font-weight: 1200;
-    font-size: 80px;
-    line-height: 102px;
-    text-align: center;
+    font-size: 40px;
+    /* line-height: 102px; */
+    text-align: left;
+    padding-left: 1rem;
     color: #FFFFFF;
 }
 

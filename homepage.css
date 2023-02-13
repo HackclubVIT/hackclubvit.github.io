@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'abel';
+    src: url(../assets/Fonts/Abel-Regular.ttf);
+}
+
+
+#homepage-section{
+   
+   
+    background-image: url("../assets/img/bg-home.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: #fff;
+    height: calc(100vh - 100px);
+   
+    width: 100%;
+    background-color: #272121;
+   
+}
+
+.homepage-text{
+   
+   
+   
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+   
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translate(-60%, -60%);
+    text-align: right;
+}
+.homepage-text h1{
+    
+   
+    font-size: 3.5rem;
+    letter-spacing: .6rem;
+   
+}
+
+.homepage-text h3{
+    letter-spacing: .2rem;
+    font-family: 'abel';
+
+}
+
+#rocket{
+    position: absolute;
+    top:-20%;
+    left: 40%;
+    transform: scaleX(-1) scale(0.4);
+}
+
+
+#button-homepage {
+    cursor: pointer;
+    position: absolute;
+    left: 48%;
+    bottom: 10%;
+   
+   
+   
+}
+
+
+@media only screen
+and (min-width : 50px)
+and (max-width : 550px){
+
+
+    #homepage-section{
+        z-index: -10;
+        background-image: url("../assets/img/bg-homepage.jpeg");
+        background-repeat: no-repeat;
+        /* changed to top from bottom */
+        background-position: center bottom; 
+        color: #fff;
+        height: calc(100vh - 100px);
+        width: 100%;
+        background-color: #272121;
+        position: relative;
+
+       
+    }
+
+    .homepage-text{
+        writing-mode: unset;
+        text-orientation: unset;
+        display: block;
+        position: absolute;
+        top: 18%;
+        left:54%;
+        width: 80%;
+        margin: auto;
+       
+       
+    }
+
+    #rocket{
+        position: absolute;
+        top:2.25rem;
+        left: 0;
+        transform: scaleX(-1) scale(0.25);
+        margin: 0;
+    }
+
+    .homepage-text h1{
+        width: 100%;
+       
+        font-size: 4.875rem;
+        font-weight: bold;
+    }
+
+    #button-homepage{
+        display: none;
+    }
+
+
+}
+

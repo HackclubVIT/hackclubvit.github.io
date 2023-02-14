@@ -105,6 +105,10 @@
   }
 
   .nav-content.active {
+/* fixing the hidden menu bar. Also HackClub logo gets hidden under it. PLus the menu bar is no more sticky. Bad UX  - Srijan */
+    position: absolute;
+    z-index: 100;
     left: 0;
+    top: 100px;
   }
 }

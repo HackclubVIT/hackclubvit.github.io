@@ -157,15 +157,15 @@
 
     .name {
         position: absolute;
-        width: 243.67px;
-        height: 83.51px;
+        width: 343.67px;
+        height: 103.51px;
         left: 1px;
         top: 410px;
         font-family: 'Abel';
         font-style: normal;
         font-weight: 1200;
         font-size: 50px;
-        line-height: 102px;
+        line-height: 50px;
         text-align: center;
         color: #FFFFFF;
     }
@@ -176,7 +176,7 @@
         width: 330px;
         height: 243.86px;
         left: 25px;
-        top: 500px;
+        top: 530px;
         font-family: 'Phantom Sans 0.7';
         font-style: normal;
         font-weight: 400;
